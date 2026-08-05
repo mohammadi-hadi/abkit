@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: If abkit is useful in your work, please cite it.
+title: "abkit: audit an A/B-test readout before you ship the decision"
+type: software
+authors:
+  - family-names: Mohammadi
+    given-names: Hadi
+repository-code: https://github.com/mohammadi-hadi/abkit
+url: https://github.com/mohammadi-hadi/abkit
+license: MIT
+version: 0.1.0
+date-released: "2026-08-05"
