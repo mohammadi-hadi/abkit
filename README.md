@@ -3,6 +3,8 @@
 Audit an A/B-test readout before you ship the decision.
 
 [![ci](https://github.com/mohammadi-hadi/abkit/actions/workflows/ci.yml/badge.svg)](https://github.com/mohammadi-hadi/abkit/actions/workflows/ci.yml)
+[![PyPI](https://img.shields.io/pypi/v/abkit)](https://pypi.org/project/abkit/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21809478.svg)](https://doi.org/10.5281/zenodo.21809478)
 
 An experiment readout can say "B wins, p = 0.03, ship it" while the traffic
 split was broken, three whale customers carried the whole effect, the analyst
@@ -214,14 +216,17 @@ measures what outcome-only judges miss on agent trajectories.
 
 ## Citation
 
-If abkit is useful in your work, please cite it (see
-[CITATION.cff](CITATION.cff)):
+Releases are archived on Zenodo. Cite the concept DOI
+[10.5281/zenodo.21809478](https://doi.org/10.5281/zenodo.21809478), which always
+resolves to the latest version; structured metadata is in
+[CITATION.cff](CITATION.cff).
 
 ```bibtex
 @software{mohammadi_abkit,
   author  = {Mohammadi, Hadi},
   title   = {abkit: audit an A/B-test readout before you ship the decision},
   url     = {https://github.com/mohammadi-hadi/abkit},
+  doi     = {10.5281/zenodo.21809478},
   version = {0.1.0},
   year    = {2026}
 }
