@@ -66,7 +66,7 @@ the exploratory split of the [Upworthy Research Archive](https://doi.org/10.1038
 ## Install
 
 ```
-pip install git+https://github.com/mohammadi-hadi/abkit
+pip install abkit
 ```
 
 Python 3.11+. Runtime dependencies: numpy, pydantic, matplotlib.
