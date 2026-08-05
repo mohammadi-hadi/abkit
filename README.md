@@ -213,7 +213,9 @@ Companion projects: [judgekit](https://github.com/mohammadi-hadi/judgekit)
 applies the same audit-before-you-trust pattern to LLM judges;
 [raterkit](https://github.com/mohammadi-hadi/raterkit) applies it to the human
 labels underneath both; [trajectory-judge](https://github.com/mohammadi-hadi/trajectory-judge)
-measures what outcome-only judges miss on agent trajectories.
+measures what outcome-only judges miss on agent trajectories;
+[arenakit](https://github.com/mohammadi-hadi/arenakit) applies it to pairwise
+model leaderboards.
 
 ## Citation
 
