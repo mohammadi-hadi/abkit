@@ -211,7 +211,8 @@ uncertainty on every number and validation by implantation.
 
 Companion projects: [judgekit](https://github.com/mohammadi-hadi/judgekit)
 applies the same audit-before-you-trust pattern to LLM judges;
-[trajectory-judge](https://github.com/mohammadi-hadi/trajectory-judge)
+[raterkit](https://github.com/mohammadi-hadi/raterkit) applies it to the human
+labels underneath both; [trajectory-judge](https://github.com/mohammadi-hadi/trajectory-judge)
 measures what outcome-only judges miss on agent trajectories.
 
 ## Citation
