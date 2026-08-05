@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abkit"
+version = "0.1.0"
+description = "Audit an A/B-test readout before you ship the decision"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Hadi Mohammadi"}]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "pydantic>=2.5",
+    "matplotlib>=3.8",
+]
+keywords = ["ab-testing", "experimentation", "srm", "statistics", "audit"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+]
+
+[project.urls]
+Homepage = "https://github.com/mohammadi-hadi/abkit"
+Issues = "https://github.com/mohammadi-hadi/abkit/issues"
+
+[project.scripts]
+abkit = "abkit.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.4", "mypy>=1.10", "scipy>=1.12", "statsmodels>=0.14"]
+
+[tool.setuptools.package-data]
+abkit = ["py.typed"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.mypy]
+disallow_untyped_defs = true
+warn_return_any = true
+warn_unused_ignores = true
+no_implicit_optional = true
+
+[[tool.mypy.overrides]]
+module = "matplotlib.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
