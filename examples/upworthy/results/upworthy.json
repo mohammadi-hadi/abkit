@@ -1,0 +1,18 @@
+{
+  "n_tests": 4873,
+  "n_same_start": 4656,
+  "n_staggered": 217,
+  "srm_flag_rate_same_start": 0.15829037800687284,
+  "srm_flags_same_start": 737,
+  "srm_flag_rate_staggered": 0.07373271889400922,
+  "srm_flags_staggered": 16,
+  "n_winner_tests": 4873,
+  "naive_winner_rate": 0.1093782064436692,
+  "naive_winners": 533,
+  "bh_winners": 134,
+  "bh_winner_rate": 0.027498460907038787,
+  "median_significant_lift": 0.0084951026146957,
+  "median_significant_lift_se": 0.003766776944157528,
+  "median_winner_power": 0.6161327776500976,
+  "median_winner_exaggeration": 1.2748522613862145
+}
