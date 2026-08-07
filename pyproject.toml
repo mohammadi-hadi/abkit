@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "abkit"
-version = "0.1.0"
+version = "0.1.1"
 description = "Sample-ratio, peeking, multiple-testing and winner's-curse checks for experiment readouts"
 readme = "README.md"
 license = {text = "MIT"}
