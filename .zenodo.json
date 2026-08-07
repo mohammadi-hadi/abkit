@@ -1,0 +1,20 @@
+{
+  "title": "abkit: audit an A/B-test readout before you ship the decision",
+  "description": "Sample-ratio, peeking, multiple-testing and winner's-curse checks for experiment readouts — across 4,873 Upworthy tests the median significant winner overstates its lift by 1.27x.",
+  "creators": [
+    {
+      "name": "Mohammadi, Hadi",
+      "orcid": "0000-0003-0860-9200",
+      "affiliation": "Utrecht University"
+    }
+  ],
+  "license": "mit",
+  "upload_type": "software",
+  "keywords": [
+    "ab testing",
+    "data science",
+    "experimentation",
+    "srm",
+    "statistics"
+  ]
+}
