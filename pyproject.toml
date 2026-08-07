@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "abkit"
 version = "0.1.0"
-description = "Audit an A/B-test readout before you ship the decision"
+description = "Sample-ratio, peeking, multiple-testing and winner's-curse checks for experiment readouts"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name = "Hadi Mohammadi"}]

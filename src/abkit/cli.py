@@ -14,7 +14,9 @@ from .report import inject_readme, write_report
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
-        prog="abkit", description="Audit an A/B-test readout before you ship the decision."
+        prog="abkit",
+        description="Sample-ratio, peeking, multiple-testing and winner's-curse checks "
+        "for experiment readouts.",
     )
     parser.add_argument("--version", action="version", version=f"abkit {__version__}")
     sub = parser.add_subparsers(dest="command", required=True)

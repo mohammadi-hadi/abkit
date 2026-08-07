@@ -1,6 +1,6 @@
 # abkit
 
-Audit an A/B-test readout before you ship the decision.
+Sample-ratio, peeking, multiple-testing and winner's-curse checks for experiment readouts.
 
 [![ci](https://github.com/mohammadi-hadi/abkit/actions/workflows/ci.yml/badge.svg)](https://github.com/mohammadi-hadi/abkit/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/abkit)](https://pypi.org/project/abkit/)

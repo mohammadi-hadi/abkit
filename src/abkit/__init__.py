@@ -1,4 +1,4 @@
-"""abkit: audit an A/B-test readout before you ship the decision."""
+"""abkit: sample-ratio, peeking, multiple-testing and winner's-curse checks."""
 
 from .audit import run_audit
 from .io import dump_design, dump_units, load_design, load_units
