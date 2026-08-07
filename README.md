@@ -231,7 +231,7 @@ resolves to the latest version; structured metadata is in
   title   = {abkit: audit an A/B-test readout before you ship the decision},
   url     = {https://github.com/mohammadi-hadi/abkit},
   doi     = {10.5281/zenodo.21809478},
-  version = {0.1.0},
+  version = {0.1.1},
   year    = {2026}
 }
 ```
