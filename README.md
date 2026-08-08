@@ -1,11 +1,16 @@
-# abkit
+<div align="center">
 
-Sample-ratio, peeking, multiple-testing and winner's-curse checks for experiment readouts.
+# abkit
 
 [![ci](https://github.com/mohammadi-hadi/abkit/actions/workflows/ci.yml/badge.svg)](https://github.com/mohammadi-hadi/abkit/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/abkit)](https://pypi.org/project/abkit/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21809478.svg)](https://doi.org/10.5281/zenodo.21809478)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+*Sample-ratio, peeking, multiple-testing and winner's-curse checks for experiment readouts.*
+
+</div>
 
 An experiment readout can say "B wins, p = 0.03, ship it" while the traffic
 split was broken, three whale customers carried the whole effect, the analyst
