@@ -179,7 +179,7 @@ impression counts should pass a chi-square test against an even split.
 | all packages launched together | {n_same} | {srm_same} | {srm_same / n_same:.1%} |
 | packages added mid-test | {n_staggered} | {srm_staggered} | {srm_staggered / n_staggered:.1%} |
 
-One in six real tests fails the standard validity gate — and the failures are
+Nearly one in six real tests fails the standard validity gate — and the failures are
 not explained by packages being added mid-test, because the rate is just as
 high in the {n_same} tests whose packages were all created within an hour of
 each other. Whatever the mechanism (variants paused by editors, traffic
