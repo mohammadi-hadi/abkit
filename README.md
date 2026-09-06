@@ -60,7 +60,7 @@ the exploratory split of the [Upworthy Research Archive](https://doi.org/10.1038
 — 4,873 real headline A/B tests from 2013–2015. Committed results:
 [examples/upworthy/results/upworthy.md](examples/upworthy/results/upworthy.md).
 
-- **16% of real tests fail the sample-ratio check** at p < 0.001 against the
+- **15% of real tests fail the sample-ratio check** at p < 0.001 against the
   platform's equal-allocation design — and not because packages were added
   mid-test; the rate is, if anything, higher in tests whose variants all
   launched together. Those readouts carried unknown exposure bias.
