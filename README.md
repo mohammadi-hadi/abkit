@@ -215,13 +215,11 @@ The real-data case study uses the Upworthy Research Archive
 abkit's contribution is packaging the checks as one auditable tool with
 uncertainty on every number and validation by implantation.
 
-Companion projects: [judgekit](https://github.com/mohammadi-hadi/judgekit)
-applies the same audit-before-you-trust pattern to LLM judges;
-[raterkit](https://github.com/mohammadi-hadi/raterkit) applies it to the human
-labels underneath both; [trajectory-judge](https://github.com/mohammadi-hadi/trajectory-judge)
-measures what outcome-only judges miss on agent trajectories;
-[arenakit](https://github.com/mohammadi-hadi/arenakit) applies it to pairwise
-model leaderboards.
+## Part of evalstack
+
+[evalstack](https://github.com/mohammadi-hadi/evalstack) is the map of these
+eleven evaluation tools: what each one measures, what it found on real data,
+and the two chains that run end to end.
 
 ## Citation
 
