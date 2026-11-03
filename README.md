@@ -6,7 +6,7 @@
 [![PyPI](https://img.shields.io/pypi/v/abkit)](https://pypi.org/project/abkit/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21809478.svg)](https://doi.org/10.5281/zenodo.21809478)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mohammadi-hadi/abkit/blob/main/LICENSE)
 
 *Sample-ratio, peeking, multiple-testing and winner's-curse checks for experiment readouts.*
 
@@ -45,20 +45,20 @@ is indistinguishable from a real win — p < 0.05, decent sample size — but th
 schedule it followed has a 19% false-positive rate, not 5%. The audit flags
 the process, which is the only place that defect lives.
 
-![peeking](results/figures/peeking.png)
+![peeking](https://raw.githubusercontent.com/mohammadi-hadi/abkit/main/results/figures/peeking.png)
 
-![exaggeration](results/figures/exaggeration.png)
+![exaggeration](https://raw.githubusercontent.com/mohammadi-hadi/abkit/main/results/figures/exaggeration.png)
 
-`make demo` regenerates the table, the [full report](results/report.md) and
+`make demo` regenerates the table, the [full report](https://github.com/mohammadi-hadi/abkit/blob/main/results/report.md) and
 the figures from fixed seeds; CI rebuilds them from pinned dependencies and
 fails if a committed number differs from what the code produces.
 
 ## 4,873 real experiments, audited
 
-[`examples/upworthy/`](examples/upworthy/) runs abkit's aggregate checks over
+[`examples/upworthy/`](https://github.com/mohammadi-hadi/abkit/tree/main/examples/upworthy/) runs abkit's aggregate checks over
 the exploratory split of the [Upworthy Research Archive](https://doi.org/10.1038/s41597-021-00934-7)
 — 4,873 real headline A/B tests from 2013–2015. Committed results:
-[examples/upworthy/results/upworthy.md](examples/upworthy/results/upworthy.md).
+[examples/upworthy/results/upworthy.md](https://github.com/mohammadi-hadi/abkit/blob/main/examples/upworthy/results/upworthy.md).
 
 - **15% of real tests fail the sample-ratio check** at p < 0.001 against the
   platform's equal-allocation design — and not because packages were added
@@ -162,7 +162,7 @@ experiment.
   ±0.10 — and flag only when the whole 95% bootstrap CI leaves it. Exact
   procedures use the field's conventional thresholds: SRM at p < 0.001,
   contamination at zero tolerance. All constants live in one place
-  ([`probes.py`](src/abkit/probes.py)) and are easy to disagree with.
+  ([`probes.py`](https://github.com/mohammadi-hadi/abkit/blob/main/src/abkit/probes.py)) and are easy to disagree with.
 - **The stopping rule is audited, not the final p.** A peeked experiment's
   final test statistic looks ordinary; what is broken is the procedure that
   produced it. The peeking probe Monte-Carlos the analyst's actual look
@@ -226,7 +226,7 @@ and the two chains that run end to end.
 Releases are archived on Zenodo. Cite the concept DOI
 [10.5281/zenodo.21809478](https://doi.org/10.5281/zenodo.21809478), which always
 resolves to the latest version; structured metadata is in
-[CITATION.cff](CITATION.cff).
+[CITATION.cff](https://github.com/mohammadi-hadi/abkit/blob/main/CITATION.cff).
 
 ```bibtex
 @software{mohammadi_abkit,
